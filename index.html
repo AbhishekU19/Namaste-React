@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaste React</title>
+    <link rel="stylesheet" href="./index.css" />
+</head>
+<body>
+    <!-- <h1>Above Root Top of React</h1> == React is library which can be applied to small portion of page or code which differs it from framework. -->
+   <h1 id="heading"></h1>
+   <div id="root">
+    <!-- <h1>Abhishek Was here</h1> == h1 tag will be executed first and then will be printed and then replaced by App.js -->
+   </div>
+   <!-- <h2>Below react below</h2> == React only works in root div because we have given root to render to process. -->
+
+   <!-- // So order of files really important when it comes to react App.js file should be below react developemnt file  -->
+   <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+   <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+   <!-- <script>
+    const heading = React.createElement("h1", {}, "Hello World from React");
+    const root= ReactDOM.createRoot(document.getElementById("root"));
+    root.render(heading);
+     
+    </script> -->
+    
+        <!-- // const heading = document.getElementById("heading"); // Use the correct ID or selector
+        // heading.innerHTML = "Hello World from JS"; // Fix the typo in innerHTML
+
+        // const root = document.getElementById("root");
+        // root.appendChild(heading); -->
+        <script src = ./App.js></script>
+
+</body>
+</html>
