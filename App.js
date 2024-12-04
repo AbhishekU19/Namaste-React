@@ -2,9 +2,9 @@ const heading = React.createElement("h1", {}, "Hello World from React");
 const root= ReactDOM.createRoot(document.getElementById("root"));
 root.render(heading);
 
-
-// We can actually use React without JSX and below is the Example of it just JSX makes our life easier and saves time\
-// So order of files really important when it comes to react App.js file should be below react developemnt  
+// We can use React without JSX and below is an example of it just JSX makes our life easier and saves time.
+// So the order of files important when it comes to react App.js file should be below the react development.
+ 
 const parent=React.createElement( "div", {id :"parent"},
 React.createElement(
     "div", {id :"child"}, [
@@ -18,5 +18,7 @@ React.createElement(
         ])
     );
 
-
 root.render(parent);
+
+
+
